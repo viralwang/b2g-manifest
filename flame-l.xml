@@ -3,21 +3,25 @@
   <include name="base-l-caf.xml"/>
 
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
-  <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
+  <default remote="caf" revision="LA.BR.1.2.3" sync-j="4"/>
 
   <!-- Flame L specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <project name="device/qcom/common" path="device/qcom/common"/>
-  <project name="kernel/msm" path="kernel" />
+  <project name="device/qcom/common" path="device/qcom/common" revision="LF.BR.1.2.3"/>
+  <project name="kernel/msm-3.10" path="kernel" revision="LF.BR.1.2.3"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="LF.BR.1.2.3"/>
   <!--project name="device-flame" path="device/t2m/flame" remote="b2g" revision="lolipop"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-l"/>
   <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
   <remove-project name="platform/bootable/recovery"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-v2.0"/-->
+  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="LF.BR.1.2.3"/>
 
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="LF.BR.1.2.3"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="master"/>
+  <project name="platform/external/yaffs2" path="platform/external/yaffs2" revision="LF.BR.1.2.3"/>
+
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
@@ -25,12 +29,12 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
-  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="LF.BR.1.2.3"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="LF.BR.1.2.3"/>
 
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
-  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
+  <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="LA.BF.1.1.2_rb1.12"/>
 </manifest>
