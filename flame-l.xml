@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><manifest>
 
-  <include name="base-l-caf.xml"/>
+  <include name="base-l-aosp.xml"/>
 
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
@@ -8,12 +8,7 @@
   <!-- Flame L specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="device/qcom/common" path="device/qcom/common"/>
-  <project name="kernel/msm" path="kernel" />
-  <!--project name="device-flame" path="device/t2m/flame" remote="b2g" revision="lolipop"/>
-  <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="t2m-flame-3.4-l"/>
-  <project name="kernel_lk" path="bootable/bootloader/lk" remote="b2g" revision="foxfone-one-v1.4"/>
-  <remove-project name="platform/bootable/recovery"/>
-  <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="foxfone-one-v2.0"/-->
+  <project name="kernel/msm" path="kernel"/>
 
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one"/>
