@@ -25,7 +25,6 @@
   <project name="platform/hardware/ril" path="hardware/ril"/>
 
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
-  <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
 </manifest>
