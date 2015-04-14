@@ -2,6 +2,7 @@
 <manifest>
 
   <include name="base-l.xml"/>
+  <remove-project name="device/common"/>
   <remove-project name="platform/external/sepolicy"/>
   <remove-project name="platform/frameworks/av"/>
   <remove-project name="platform/frameworks/base"/>
@@ -11,6 +12,7 @@
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/vold"/>
   
+  <project name="android_device_common" path="device/common" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_external_sepolicy" path="external/sepolicy" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_frameworks_av" path="frameworks/av" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_frameworks_base" path="frameworks/base" remote="t2m" revision="foxfone-one-lollipop"/>
