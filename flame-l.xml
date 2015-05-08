@@ -36,5 +36,6 @@
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
   <project name="android_platform_vendor_qcom_msm8610" path="device/qcom/msm8610" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
 
 </manifest>
