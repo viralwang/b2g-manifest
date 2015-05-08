@@ -2,12 +2,14 @@
 
   <include name="base-l-t2m.xml"/>
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
+  <remote name="viral" fetch="https://github.com/viralwang/"/>
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
 
   <!-- Flame L specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="android_device_qcom_common" path="device/qcom/common" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="device-flame" path="device/t2m/flame" remote="viral" revision="flame-l"/>
   <project name="android_kernel_lk" path="bootable/bootloader/lk" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_kernel_msm" path="kernel" remote="t2m" revision="foxfone-one-lollipop"/>
   <remove-project name="platform/bootable/recovery"/>
