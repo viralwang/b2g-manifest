@@ -8,7 +8,9 @@
   <!-- Flame L specific things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <project name="android_device_qcom_common" path="device/qcom/common" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="android_platform_vendor_qcom_msm8610" path="device/qcom/msm8610" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="t2m" revision="foxfone-one-lollipop"/>
+
   <project name="device-flame" path="device/t2m/flame" remote="viral" revision="flame-l"/>
   <project name="android_kernel_lk" path="bootable/bootloader/lk" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_kernel_msm" path="kernel" remote="t2m" revision="foxfone-one-lollipop"/>
@@ -38,7 +40,8 @@
 
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima"/>
-  <project name="android_platform_vendor_qcom_msm8610" path="device/qcom/msm8610" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="platform/system/qcom" path="system/qcom"/>
+
+  <project name="gonk-patches" path="patches" remote="viral" revision="flame-l"/>
 
 </manifest>
