@@ -13,7 +13,7 @@
 
   <project name="device-flame" path="device/t2m/flame" remote="viral" revision="flame-l"/>
   <project name="android_kernel_lk" path="bootable/bootloader/lk" remote="t2m" revision="foxfone-one-lollipop"/>
-  <project name="android_kernel_msm" path="kernel" remote="t2m" revision="foxfone-one-lollipop"/>
+  <project name="codeaurora_kernel_msm" path="kernel" remote="viral" revision="t2m-flame-3.4-l"/>
   <remove-project name="platform/bootable/recovery"/>
   <project name="android_platform_bootable_recovery" path="bootable/recovery" remote="t2m" revision="foxfone-one-lollipop"/>
 
