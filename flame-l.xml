@@ -30,7 +30,6 @@
   <project name="android_platform_hardware_nvidia_tegra124" path="hardware/nvidia/tegra124" remote="t2m" revision="foxfone-one-lollipop"/>
 
   <project name="android_platform_hardware_qcom_audio" path="hardware/qcom/audio" remote="t2m" revision="foxfone-one-lollipop"/>
-  <project name="android_platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_hardware_qcom_camera" path="hardware/qcom/camera" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_hardware_qcom_display" path="hardware/qcom/display" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="android_platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="t2m" revision="foxfone-one-lollipop"/>
