@@ -6,7 +6,6 @@
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
 
   <!-- Flame L specific things -->
-  <project name="android_kernel_lk" path="bootable/bootloader/lk" remote="t2m" revision="foxfone-one-lollipop"/>
   <remove-project name="platform/bootable/recovery"/>
   <project name="android_platform_bootable_recovery" path="bootable/recovery" remote="t2m" revision="foxfone-one-lollipop"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
