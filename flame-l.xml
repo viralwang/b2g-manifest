@@ -2,7 +2,6 @@
 
   <include name="base-l.xml"/>
   <remote name="t2m" fetch="git://github.com/t2m-foxfone/"/>
-  <remote name="viral" fetch="https://github.com/viralwang/"/>
   <default remote="caf" revision="LA.BF.1.1.2_rb1.12" sync-j="4"/>
 
   <!-- Flame L specific things -->
@@ -12,7 +11,7 @@
   <project name="device/qcom/common" path="device/qcom/common"/>
   <project name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610"/>
   <project name="device/qcom/sepolicy" path="device/qcom/sepolicy"/>
-  <project name="device-flame" path="device/t2m/flame" remote="viral" revision="lollipop"/>
+  <project name="device-flame" path="device/t2m/flame" remote="b2g" revision="lollipop"/>
   <remove-project name="platform/external/bluetooth/bluedroid"/>
   <project name="platform_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="b2g" revision="foxfone-one-lollipop"/>
   <project name="android_platform_external_libnfc-nci" path="external/libnfc-nci" remote="t2m" revision="foxfone-one-lollipop"/>
